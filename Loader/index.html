@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body style="background:#0d1117;color:white;">
+<pre id="lua"></pre>
+
+<script>
+fetch("./script.lua")
+.then(r => r.text())
+.then(t => {
+    document.getElementById("lua").textContent = t;
+});
+</script>
+</body>
+</html>
