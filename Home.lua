@@ -1,5 +1,9 @@
 return function(Tabs, Library)
 
+local Players = game:GetService("Players")
+local HttpService = game:GetService("HttpService")
+local LocalPlayer = Players.LocalPlayer
+
 -- ================================
 -- Home
 -- ================================
