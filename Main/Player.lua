@@ -22,6 +22,7 @@ return function(Tabs, Library)
     local TweenService = game:GetService("TweenService")
     local Stats = game:GetService("Stats")
     local HttpService = game:GetService("HttpService")
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
     -- =========================
 -- Player
