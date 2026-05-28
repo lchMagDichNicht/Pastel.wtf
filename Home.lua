@@ -1,3 +1,8 @@
+return function()
+
+local repo = "https://raw.githubusercontent.com/deividcomsono/Obsidian/refs/heads/main/"
+local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
+
 -- ================================
 -- Home
 -- ================================
@@ -117,4 +122,5 @@ Discord:AddLabel({
     DoesWrap = true,
     Size = 16
 })
+end
 end
