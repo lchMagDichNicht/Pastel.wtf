@@ -52,7 +52,7 @@ end)
 -- =========================
 do
 
-local ESPLeft = Tabs.View:AddLeftGroupbox("ESP", "scan-eye")
+local ESPLeft = Tabs.Visuals:AddLeftGroupbox("ESP", "scan-eye")
 
 
 -- =========================
