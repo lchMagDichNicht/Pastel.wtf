@@ -235,7 +235,7 @@ local BoxToggle = ESPLeft:AddToggle("ESPBox", {
 })
 
 BoxToggle:AddColorPicker("ESPBoxColor", {
-    Default = Color3.fromRGB(248,164,255),
+    Default = Color3.fromRGB(167,251,255),
     Title = "Box Color",
 })
 
@@ -245,7 +245,7 @@ local FillToggle = ESPLeft:AddToggle("ESPFill", {
 })
 
 FillToggle:AddColorPicker("ESPFillColor", {
-    Default = Color3.fromRGB(248,164,255),
+    Default = Color3.fromRGB(167,251,255),
     Title = "Fill Color",
 })
 
@@ -255,7 +255,7 @@ local NameToggle = ESPLeft:AddToggle("ESPName", {
 })
 
 NameToggle:AddColorPicker("ESPNameColor", {
-    Default = Color3.fromRGB(248,164,255),
+    Default = Color3.fromRGB(167,251,255),
     Title = "Name Color",
 })
 
@@ -265,7 +265,7 @@ local DistanceToggle = ESPLeft:AddToggle("ESPDistance", {
 })
 
 DistanceToggle:AddColorPicker("ESPDistanceColor", {
-    Default = Color3.fromRGB(248,164,255),
+    Default = Color3.fromRGB(167,251,255),
     Title = "Distance Color",
 })
 
@@ -285,7 +285,7 @@ local TracerToggle = ESPLeft:AddToggle("ESPTracer", {
 })
 
 TracerToggle:AddColorPicker("ESPTracerColor", {
-    Default = Color3.fromRGB(248,164,255),
+    Default = Color3.fromRGB(167,251,255),
     Title = "Tracer Color",
 })
 
